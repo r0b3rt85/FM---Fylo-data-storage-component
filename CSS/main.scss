@@ -1,4 +1,3 @@
-// TODO: convert to grid layout to make it easier to align elements
 // TODO: add footer for credits and copyright
 // TODO: add mobile view for smaller screens
 
@@ -73,7 +72,7 @@ body {
   border-radius: 1em 8em 1em 1em;
 
   padding: 2em;
-  margin: 1em;
+  margin: 2em;
 
   .logo {
     width: 100%;
@@ -113,18 +112,8 @@ body {
 }
 
 .display {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-
-  height: 100%;
-  width: 100%;
-
-  border-radius: 1em 8em 1em 1em;
-
- 
-
+  width: 540px;
+  
   .tooltip {
     display: flex;
     flex-direction: row;
@@ -134,7 +123,7 @@ body {
     height: 70px;
     
     position: relative;
-    left: 75%;
+    left: 60%;
     background-color: white;
     border-radius: 1em;
 
@@ -172,9 +161,9 @@ body {
       
   .information{
     background-color: var(--c-dark-blue);
-    width: 540px;
-    border-radius: 1em 1em 1em 1em;  
-    padding: 2em;
+    width: 100%;
+    border-radius: 1em; 
+    padding: 1em 2em 1em 2em;
 
     .decription span {
       font-size: 1.2em;
@@ -205,7 +194,7 @@ body {
 
 @keyframes load {
   0% { width: 0; }
-  100% { width: 68%; }
+  100% { width: 81.2%; }
 }
 }
 .progress-label {
